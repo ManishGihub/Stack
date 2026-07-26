@@ -1,5 +1,4 @@
 import java.util.*;
-
 //Write a java projgram to push the new element at bottom of stack
 
 public class PushAtLast{
@@ -14,6 +13,7 @@ public class PushAtLast{
         s.push(top);
     }
     public static void main(String[] args){
+        
         Stack<Integer> s = new Stack<>();
 
         s.push(1);
