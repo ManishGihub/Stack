@@ -4,6 +4,7 @@ import java.util.*;
 public class PushAtLast{
 
     public static void pushAtLast(int data,Stack<Integer> s){
+        
         if(s.isEmpty()){
             s.push(data);
             return;
